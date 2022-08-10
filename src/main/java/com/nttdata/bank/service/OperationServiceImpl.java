@@ -34,7 +34,8 @@ public class OperationServiceImpl implements OperationService {
 
     @Override
     public Mono<Operation> create(Operation operation) {
-        operation.setDate(LocalTime.now());
+        Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        operation.setDate(timestamp.toInstant());
         return this.operationRepository.save(operation);
     }
 
