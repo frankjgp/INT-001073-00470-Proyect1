@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "62f30725c6b74a60b43029a4"
+  },
+  "typeAccount": "Pasivo",
+  "name": "Ahorro",
+  "commissionMaintenance": 0,
+  "limitOperation": 5,
+  "_class": "com.nttdata.bank.model.document.Product"
+},{
+  "_id": {
+    "$oid": "62f30741c6b74a60b43029a5"
+  },
+  "typeAccount": "Pasivo",
+  "name": "Cuenta Corriente",
+  "commissionMaintenance": 2,
+  "limitOperation": 0,
+  "_class": "com.nttdata.bank.model.document.Product"
+},{
+  "_id": {
+    "$oid": "62f3078bc6b74a60b43029a6"
+  },
+  "typeAccount": "Pasivo",
+  "name": "Plazo Fijo",
+  "commissionMaintenance": 0,
+  "limitOperation": 1,
+  "_class": "com.nttdata.bank.model.document.Product"
+},{
+  "_id": {
+    "$oid": "62f30802c6b74a60b43029a7"
+  },
+  "typeAccount": "Activo",
+  "name": "Personal",
+  "commissionMaintenance": 0,
+  "limitOperation": 0,
+  "_class": "com.nttdata.bank.model.document.Product"
+},{
+  "_id": {
+    "$oid": "62f3080dc6b74a60b43029a8"
+  },
+  "typeAccount": "Activo",
+  "name": "Empresarial",
+  "commissionMaintenance": 0,
+  "limitOperation": 0,
+  "_class": "com.nttdata.bank.model.document.Product"
+},{
+  "_id": {
+    "$oid": "62f30825c6b74a60b43029a9"
+  },
+  "typeAccount": "Activo",
+  "name": "Tarjeta Crédito",
+  "commissionMaintenance": 0,
+  "limitOperation": 0,
+  "_class": "com.nttdata.bank.model.document.Product"
+}]
